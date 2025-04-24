@@ -1,0 +1,28 @@
+.header{
+    backdrop-filter: blur(30px);
+    background: rgba(217, 217, 217, 0.07);
+    position: absolute;
+    z-index: 50;
+    width: 100%;
+}
+
+.header__list{
+    display: flex;
+    gap:20px;
+    color: aliceblue;
+}
+
+.header__inner{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header__phone{
+    color: white;
+    display: inline;
+    gap: 8px;
+    margin-left: auto;
+    display: flex
+}
+
