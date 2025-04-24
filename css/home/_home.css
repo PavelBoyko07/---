@@ -112,3 +112,25 @@
 .home__kok:hover{
     background:rgb(146, 123, 96);
 }
+
+.trainers__inner{
+    color: white;
+    text-align: center;
+}
+
+.sale__text{
+    text-align: left;
+}
+
+.sale__text1{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 25px;
+    padding: 20px 32px 20px 32px;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    margin: 5px; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50000px;
+}
+
