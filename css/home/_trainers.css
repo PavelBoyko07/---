@@ -1,0 +1,35 @@
+.trainers__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.trainers__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 630px;
+  padding: 20px 20px ;
+  border-radius: 20px;
+}
+
+.trainers__card--one {
+  background-image: url("../../images/face/1.png");
+}
+
+.trainers__description {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+}
+
+.trainers__name {
+  margin-top: auto;
+  margin-bottom: -50px;
+  color: black;
+  padding: 20px 50px;
+  border-radius: 25px;
+  max-width: max-content;
+  backdrop-filter: blur(50px);
+  background: rgba(255, 255, 255, 0.1);
+}
