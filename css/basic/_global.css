@@ -1,13 +1,16 @@
 .container {
-    max-width: 1335px;
-    margin: 0 auto;
-    padding: 0 15px;
+  max-width: 1335px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 body {
-    background-color: #212020;
+  background-color: #212020;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: var(--fontInter);
 }
 
-.indent{
-    margin-bottom: 120px;
+.indent {
+  margin-bottom: 120px;
 }
