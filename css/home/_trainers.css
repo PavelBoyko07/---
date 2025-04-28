@@ -18,6 +18,13 @@
   background-image: url("../../images/face/1.png");
 }
 
+.trainers__card--two {
+  background-image: url("../../images/face/2.png");
+}
+
+.trainers__card--three {
+  background-image: url("../../images/face/3.png");
+}
 .trainers__description {
   color: rgba(0, 0, 0, 0.7);
   font-size: 16px;
