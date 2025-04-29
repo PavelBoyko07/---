@@ -32,6 +32,9 @@
 .home__video {
     color: white;
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
 }
 
 .video1 {

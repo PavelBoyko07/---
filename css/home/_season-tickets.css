@@ -1,0 +1,14 @@
+.season-tickets__title{
+    color: white;
+    text-align: center;
+}
+
+.season-tickets__item{
+    border-radius: 25px;
+    background: #454545;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
