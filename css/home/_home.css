@@ -29,27 +29,6 @@
     margin: 0 auto;
 }
 
-.home__video {
-    color: white;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.video1 {
-    max-width: max-content;
-    margin: 0 auto;
-    position: relative;
-    margin-bottom: 30px;
-
-}
-
-.div4 {
-    color: white;
-    text-align: center;
-}
-
 .gap {
     color: white;
     text-align: center;
@@ -79,15 +58,4 @@
     margin: 5px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50000px;
-}
-
-.about__play {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.about__play:hover.about__play svg path {
-    stroke: red;
 }

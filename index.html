@@ -21,7 +21,7 @@
                             <a class="header__link" href="#">О нас</a>
                         </li>
                         <li>
-                            <a class="header__link" href="container indent">Галерея</a>
+                            <a class="header__link" href="#">Галерея</a>
                         </li>
                         <li>
                             <a class="header__link" href="#">Тренера</a>
@@ -42,6 +42,28 @@
                     Записаться
                 </a>
                 </ul>
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                      <svg class="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+                        <path d="M18 6L6 18M6 6l12 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <h2>Оформить покупку билета</h2>
+                      <p>Позвоните или оставьте номер, мы вам перезвоним: 8-800-555-35-35  или 8-918-962-62-63</p>
+                      <form id="contactForm">
+                        <input type="text" placeholder="Ваше имя*" required><br>
+                        <input type="tel" placeholder="Контактный телефон*" required><br>
+                        <div class="form-footer">
+                          <button type="submit">Отправить</button>
+                          <label class="custom-checkbox">
+                            <input type="checkbox" id="robotCheckbox">
+                            <span class="checkmark"></span>
+                            Я не робот
+                          </label>
+                        </div>
+                        <p id="checkboxError">Пожалуйста, подтвердите, что вы не робот</p>
+                      </form>
+                    </div>
+                  </div>
             </div>
     </header>
     <main>
@@ -73,7 +95,7 @@
                 </div>
                 <div class="video1">
                     <img src="images/video2.png" width="" height="">
-                    <a class="about__play" href="">
+                    <a class="about__play" href="https://yandex.ru/video/preview/735530892752933127">
                         <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M38.1 26.7L28.1 21C27.5246 20.6905 26.879 20.5345 26.2257 20.5472C25.5724 20.56 24.9334 20.7409 24.3705 21.0727C23.8075 21.4044 23.3396 21.8757 23.012 22.441C22.6843 23.0064 22.508 23.6466 22.5 24.3V35.7C22.4984 36.3678 22.6728 37.0243 23.0057 37.6032C23.3385 38.1822 23.8181 38.6631 24.396 38.9977C24.974 39.3323 25.6299 39.5087 26.2977 39.5091C26.9655 39.5095 27.6217 39.3339 28.2 39L38.2 33.3C38.7706 32.954 39.2408 32.4648 39.5638 31.8808C39.8868 31.2969 40.0515 30.6386 40.0414 29.9714C40.0312 29.3041 39.8467 28.6511 39.5062 28.0772C39.1656 27.5034 38.6808 27.0286 38.1 26.7Z"
@@ -223,6 +245,95 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section style="background: #212020; padding: 40px 0; color: #fff; font-family: sans-serif;">
+            <div style="display: flex; justify-content: center; align-items: flex-start; max-width: 900px; margin: 0 auto; gap: 40px;">
+              <form style="flex: 1; display: flex; flex-direction: column; gap: 16px; max-width: 340px;">
+                <h2 style="margin-bottom: 12px; font-size: 2rem; font-weight: 700;">Запишитесь на первое бесплатное занятие</h2>
+                <span style="color: #b0b0b0; font-size: 0.95rem;">*ответим через 20 секунд (нит)</span>
+                <input type="text" placeholder="Введите свое имя" required style="padding: 12px; border: none; border-radius: 6px; background: #333; color: #fff;"/>
+                <input type="tel" placeholder="Введите номер телефона" required style="padding: 12px; border: none; border-radius: 6px; background: #333; color: #fff;"/>
+                <select style="padding: 12px; border: none; border-radius: 6px; background: #333; color: #fff;">
+                  <option>Индивидуальное занятие</option>
+                  <option>Групповое занятие</option>
+                  <option>Разовое занятие</option>
+                  <option>Занятие с качком павлом</option>
+                  <option>Другое</option>
+                </select>
+                <input type="text" placeholder="Задать вопрос" style="padding: 12px; border: none; border-radius: 6px; background: #333; color: #fff;"/>
+                <button type="submit" style="padding: 22px 60px; border: none; border-radius: 12px; background: #bdbdbd; color: #232323; font-weight: 600; font-size: 1rem; cursor: pointer;">Оставить заявку</button>
+                <span style="font-size: 0.85rem; color: #b0b0b0; margin-top: 8px;">
+                  Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных
+                </span>
+              </form>
+              <div style="map">
+                <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/10988/belorechensk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Белореченск</a><a href="https://yandex.ru/maps/10988/belorechensk/house/ulitsa_mira_75/Z0AYfgBiS0QPQFpufXt3dXhhYA==/?ll=39.872146%2C44.764475&mode=search&sctx=ZAAAAAgBEAAaKAoSCdZvJqYL70NAEaxSeqaXYkZAEhIJkj6toj80gz8R%2BwJ64c6FcT8iBgABAgMEBSgKOABA7FVIAWoCcnWdAc3MzD2gAQCoAQC9AT7GqJLCAQbhrYDA9wKCAg7QvtC70LjQvNC%2F0LjQuooCAJICAJoCDGRlc2t0b3AtbWFwcw%3D%3D&sll=39.872146%2C44.764475&sspn=0.003137%2C0.001431&text=%D0%BE%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%BA&utm_medium=mapframe&utm_source=maps&z=18.78" style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Мира, 75 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=39.872146%2C44.764475&mode=search&sctx=ZAAAAAgBEAAaKAoSCdZvJqYL70NAEaxSeqaXYkZAEhIJkj6toj80gz8R%2BwJ64c6FcT8iBgABAgMEBSgKOABA7FVIAWoCcnWdAc3MzD2gAQCoAQC9AT7GqJLCAQbhrYDA9wKCAg7QvtC70LjQvNC%2F0LjQuooCAJICAJoCDGRlc2t0b3AtbWFwcw%3D%3D&sll=39.872146%2C44.764475&sspn=0.003137%2C0.001431&text=%D0%BE%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%BA&whatshere%5Bpoint%5D=39.872053%2C44.764557&whatshere%5Bzoom%5D=17&z=18.78" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+              </div>
+            </div>
+        </div>
+        </section>
+        <section class="indent">
+            <div class="reviews">
+                <h2 class="reviews_title">
+                    Отзывы
+                </h2>
+            <div class="swiper-reviews">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="/images/reviews/1.png" width="470" height="280">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="/images/reviews/2.png" width="470" height="280">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="/images/reviews/3.png" width="470" height="280">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="/images/reviews/4.png" width="470" height="280">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="/images/reviews/5.png" width="470" height="280">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="/images/reviews/6.png" width="470" height="280">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="/images/reviews/7.png" width="470" height="280">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="/images/reviews/8.png" width="470" height="280">
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="/images/reviews/9.png" width="470" height="280">
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="/images/reviews/10.png" width="470" height="280">
+                        </div>
+                        <button class="swiper-button-prev">
+                        </button>
+                        <button class="swiper-button-next">
+                        </button>
+                        </div>
+                    </div>
+                </div>
+            </div>        
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
