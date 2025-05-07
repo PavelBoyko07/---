@@ -42,28 +42,7 @@
                     Записаться
                 </a>
                 </ul>
-                <div id="modal" class="modal">
-                    <div class="modal-content">
-                      <svg class="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
-                        <path d="M18 6L6 18M6 6l12 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                      <h2>Оформить покупку абонимента</h2>
-                      <p>Позвоните или оставьте номер, мы вам перезвоним: 8-800-666-88-99  или 8-918-777-88-99</p>
-                      <form id="contactForm">
-                        <input type="text" placeholder="Ваше имя*" required><br>
-                        <input type="tel" placeholder="Контактный телефон*" required><br>
-                        <div class="form-footer">
-                          <button type="submit">Отправить</button>
-                          <label class="custom-checkbox">
-                            <input type="checkbox" id="robotCheckbox">
-                            <span class="checkmark"></span>
-                            Я не робот
-                          </label>
-                        </div>
-                        <p id="checkboxError">Пожалуйста, подтвердите, что вы не робот</p>
-                      </form>
-                    </div>
-                  </div>
+                
             </div>
     </header>
     <main>
@@ -164,7 +143,6 @@
                     </button>
                 </div>
             </div>
-
         </section>
         <section class="indent">
             <div class="container">
@@ -215,84 +193,99 @@
         </section>
         <section class="indent">
             <div class="abonements">
-            <h2 class="abonements-title">Абонементы</h2>
-            <div class="abonements-list">
-              <div class="abonement-card">
-                <div class="abonement-title">1 МЕСЯЦ</div>
-                <div class="abonement-features">
-                  <div class="abonement-feature">
-                    <img src="/images/icons/personal.png">
-                    <span>1 Персональные тренировки</span>
-                  </div>
-                  <div class="abonement-feature">
-                    <img src="/images/icons/activation.png">
-                    <span>Активация в день тренировки</span>
-                  </div>
+                <h2 class="abonements-title">Абонементы</h2>
+                <div class="abonements-list">
+                    <div class="abonement-card">
+                        <div class="abonement-title">1 МЕСЯЦ</div>
+                        <div class="abonement-features">
+                            <div class="abonement-feature">
+                                <img src="/images/icons/personal.png">
+                                <span>1 Персональные тренировки</span>
+                            </div>
+                            <div class="abonement-feature">
+                                <img src="/images/icons/activation.png">
+                                <span>Активация в день тренировки</span>
+                            </div>
+                        </div>
+                        <div class="abonement-price">Цена 5.000 ₽</div>
+                        <div class="abonement-actions">
+                            <button class="btn-buy">Купить</button>
+                            <button class="btn-more">подробнее</button>
+                        </div>
+                    </div>
+                    <div class="abonement-card">
+                        <div class="abonement-title">2 МЕСЯЦ</div>
+                        <div class="abonement-features">
+                            <div class="abonement-feature">
+                                <img src="/images/icons/info.png">
+                                <span>Гостевой визит</span>
+                            </div>
+                            <div class="abonement-feature">
+                                <img src="/images/icons/personal.png">
+                                <span>3 Персональные тренировки</span>
+                            </div>
+                            <div class="abonement-feature">
+                                <img src="/images/icons/activation.png">
+                                <span>Активация 14 дней</span>
+                            </div>
+                            <div class="abonement-feature">
+                                <img src="/images/icons/hold.png">
+                                <span>14 дней заморозки</span>
+                            </div>
+                        </div>
+                        <div class="abonement-price">Цена 8.000 ₽</div>
+                        <div class="abonement-actions">
+                            <button class="btn-buy">Купить</button>
+                            <button class="btn-more">подробнее</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="abonement-price">Цена 5.000 ₽</div>
-                <div class="abonement-actions">
-                  <button class="btn-buy">Купить</button>
-                  <button class="btn-more">подробнее</button>
-                </div>
-              </div>
-              <div class="abonement-card">
-                <div class="abonement-title">2 МЕСЯЦ</div>
-                <div class="abonement-features">
-                  <div class="abonement-feature">
-                    <img src="/images/icons/info.png">
-                    <span>Гостевой визит</span>
-                  </div>
-                  <div class="abonement-feature">
-                    <img src="/images/icons/personal.png">
-                    <span>3 Персональные тренировки</span>
-                  </div>
-                  <div class="abonement-feature">
-                   <img src="/images/icons/activation.png">
-                    <span>Активация 14 дней</span>
-                  </div>
-                  <div class="abonement-feature">
-                    <img src="/images/icons/hold.png">
-                    <span>14 дней заморозки</span>
-                  </div>
-                </div>
-                <div class="abonement-price">Цена 8.000 ₽</div>
-                <div class="abonement-actions">
-                  <button class="btn-buy">Купить</button>
-                  <button class="btn-more">подробнее</button>
-                </div>
-              </div>
-            </div>
         </section>
         <section>
             <div class="banner">
-            <img src="/images/баннер.gif" alt="Описание гифки" />
+                <img src="/images/баннер.gif" alt="Описание гифки" />
             </div>
         </section>
-        <section style="background: padding: 40px 0; color: #fff; font-family: sans-serif;" >
-            <div style="display: flex; justify-content: center; align-items: flex-start; max-width: 900px; margin: 0 auto; gap: 40px;">
-              <form style="flex: 1; display: flex; flex-direction: column; gap: 16px; max-width: 340px;">
-                <h2 style="margin-bottom: 12px; font-size: 2rem; font-weight: 700;">Запишитесь на первое бесплатное занятие</h2>
-                <span style="color: #b0b0b0; font-size: 0.95rem;">*ответим через 20 секунд (нит)</span>
-                <input type="text" placeholder="Введите свое имя" required style="padding: 12px; border: none; border-radius: 6px; background: #333; color: #fff;"/>
-                <input type="tel" placeholder="Введите номер телефона" required style="padding: 12px; border: none; border-radius: 6px; background: #333; color: #fff;"/>
-                <select style="padding: 12px; border: none; border-radius: 6px; background: #333; color: #fff;">
-                  <option>Индивидуальное занятие</option>
-                  <option>Групповое занятие</option>
-                  <option>Разовое занятие</option>
-                  <option>Занятие с качком павлом</option>
-                  <option>Другое</option>
-                </select>
-                <input type="text" placeholder="Задать вопрос" style="padding: 12px; border: none; border-radius: 6px; background: #333; color: #fff;"/>
-                <button type="submit" style="padding: 22px 60px; border: none; border-radius: 12px; background: #bdbdbd; color: #232323; font-weight: 600; font-size: 1rem; cursor: pointer;">Оставить заявку</button>
-                <span style="font-size: 0.85rem; color: #b0b0b0; margin-top: 8px;">
-                  Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных
-                </span>
-              </form>
-              <div style="map">
-                <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/10988/belorechensk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Белореченск</a><a href="https://yandex.ru/maps/10988/belorechensk/house/ulitsa_mira_75/Z0AYfgBiS0QPQFpufXt3dXhhYA==/?ll=39.872146%2C44.764475&mode=search&sctx=ZAAAAAgBEAAaKAoSCdZvJqYL70NAEaxSeqaXYkZAEhIJkj6toj80gz8R%2BwJ64c6FcT8iBgABAgMEBSgKOABA7FVIAWoCcnWdAc3MzD2gAQCoAQC9AT7GqJLCAQbhrYDA9wKCAg7QvtC70LjQvNC%2F0LjQuooCAJICAJoCDGRlc2t0b3AtbWFwcw%3D%3D&sll=39.872146%2C44.764475&sspn=0.003137%2C0.001431&text=%D0%BE%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%BA&utm_medium=mapframe&utm_source=maps&z=18.78" style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Мира, 75 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=39.872146%2C44.764475&mode=search&sctx=ZAAAAAgBEAAaKAoSCdZvJqYL70NAEaxSeqaXYkZAEhIJkj6toj80gz8R%2BwJ64c6FcT8iBgABAgMEBSgKOABA7FVIAWoCcnWdAc3MzD2gAQCoAQC9AT7GqJLCAQbhrYDA9wKCAg7QvtC70LjQvNC%2F0LjQuooCAJICAJoCDGRlc2t0b3AtbWFwcw%3D%3D&sll=39.872146%2C44.764475&sspn=0.003137%2C0.001431&text=%D0%BE%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%BA&whatshere%5Bpoint%5D=39.872053%2C44.764557&whatshere%5Bzoom%5D=17&z=18.78" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
-              </div>
+        <section style="background: padding: 40px 0; color: #fff; font-family: sans-serif;">
+            <div
+                style="display: flex; justify-content: center; align-items: flex-start; max-width: 900px; margin: 0 auto; gap: 40px;">
+                <form style="flex: 1; display: flex; flex-direction: column; gap: 16px; max-width: 340px;">
+                    <h2 style="margin-bottom: 12px; font-size: 2rem; font-weight: 700;">Запишитесь на первое бесплатное
+                        занятие</h2>
+                    <span style="color: #b0b0b0; font-size: 0.95rem;">*ответим через 20 секунд (нит)</span>
+                    <input type="text" placeholder="Введите свое имя" required
+                        style="padding: 12px; border: none; border-radius: 6px; background: #333; color: #fff;" />
+                    <input type="tel" placeholder="Введите номер телефона" required
+                        style="padding: 12px; border: none; border-radius: 6px; background: #333; color: #fff;" />
+                    <select style="padding: 12px; border: none; border-radius: 6px; background: #333; color: #fff;">
+                        <option>Индивидуальное занятие</option>
+                        <option>Групповое занятие</option>
+                        <option>Разовое занятие</option>
+                        <option>Занятие с качком павлом</option>
+                        <option>Другое</option>
+                    </select>
+                    <input type="text" placeholder="Задать вопрос"
+                        style="padding: 12px; border: none; border-radius: 6px; background: #333; color: #fff;" />
+                    <button type="submit"
+                        style="padding: 22px 60px; border: none; border-radius: 12px; background: #bdbdbd; color: #232323; font-weight: 600; font-size: 1rem; cursor: pointer;">Оставить
+                        заявку</button>
+                    <span style="font-size: 0.85rem; color: #b0b0b0; margin-top: 8px;">
+                        Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных
+                    </span>
+                </form>
+                <div style="map">
+                    <div style="position:relative;overflow:hidden;"><a
+                            href="https://yandex.ru/maps/10988/belorechensk/?utm_medium=mapframe&utm_source=maps"
+                            style="color:#eee;font-size:12px;position:absolute;top:0px;">Белореченск</a><a
+                            href="https://yandex.ru/maps/10988/belorechensk/house/ulitsa_mira_75/Z0AYfgBiS0QPQFpufXt3dXhhYA==/?ll=39.872146%2C44.764475&mode=search&sctx=ZAAAAAgBEAAaKAoSCdZvJqYL70NAEaxSeqaXYkZAEhIJkj6toj80gz8R%2BwJ64c6FcT8iBgABAgMEBSgKOABA7FVIAWoCcnWdAc3MzD2gAQCoAQC9AT7GqJLCAQbhrYDA9wKCAg7QvtC70LjQvNC%2F0LjQuooCAJICAJoCDGRlc2t0b3AtbWFwcw%3D%3D&sll=39.872146%2C44.764475&sspn=0.003137%2C0.001431&text=%D0%BE%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%BA&utm_medium=mapframe&utm_source=maps&z=18.78"
+                            style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Мира, 75 —
+                            Яндекс Карты</a><iframe
+                            src="https://yandex.ru/map-widget/v1/?ll=39.872146%2C44.764475&mode=search&sctx=ZAAAAAgBEAAaKAoSCdZvJqYL70NAEaxSeqaXYkZAEhIJkj6toj80gz8R%2BwJ64c6FcT8iBgABAgMEBSgKOABA7FVIAWoCcnWdAc3MzD2gAQCoAQC9AT7GqJLCAQbhrYDA9wKCAg7QvtC70LjQvNC%2F0LjQuooCAJICAJoCDGRlc2t0b3AtbWFwcw%3D%3D&sll=39.872146%2C44.764475&sspn=0.003137%2C0.001431&text=%D0%BE%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%BA&whatshere%5Bpoint%5D=39.872053%2C44.764557&whatshere%5Bzoom%5D=17&z=18.78"
+                            width="560" height="400" frameborder="1" allowfullscreen="true"
+                            style="position:relative;"></iframe></div>
+                </div>
             </div>
-        </div>
+            </div>
         </section>
         <section></section>
         <section class="indent">
@@ -300,63 +293,63 @@
                 <h2 class="reviews_title">
                     Отзывы
                 </h2>
-            <div class="swiper-reviews">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img src="/images/reviews/1.png" width="470" height="280">
+                <div class="swiper-reviews">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/reviews/1.png" width="470" height="280">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/reviews/2.png" width="470" height="280">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/reviews/3.png" width="470" height="280">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/reviews/4.png" width="470" height="280">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/reviews/5.png" width="470" height="280">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/reviews/6.png" width="470" height="280">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/reviews/7.png" width="470" height="280">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/reviews/8.png" width="470" height="280">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img src="/images/reviews/9.png" width="470" height="280">
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="/images/reviews/10.png" width="470" height="280">
+                                    </div>
+                                    <button class="swiper-button-prev">
+                                    </button>
+                                    <button class="swiper-button-next">
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img src="/images/reviews/2.png" width="470" height="280">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img src="/images/reviews/3.png" width="470" height="280">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img src="/images/reviews/4.png" width="470" height="280">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img src="/images/reviews/5.png" width="470" height="280">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img src="/images/reviews/6.png" width="470" height="280">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img src="/images/reviews/7.png" width="470" height="280">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img src="/images/reviews/8.png" width="470" height="280">
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img src="/images/reviews/9.png" width="470" height="280">
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img src="/images/reviews/10.png" width="470" height="280">
-                        </div>
-                        <button class="swiper-button-prev">
-                        </button>
-                        <button class="swiper-button-next">
-                        </button>
-                        </div>
-                    </div>
-                </div>
-            </div>        
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
