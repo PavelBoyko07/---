@@ -2,3 +2,11 @@
     color: white;
     text-align: center;
 }
+
+.reviews__card {
+    max-width: max-content;
+}
+
+.reviews__swiper .swiper-slide {
+    max-width: 450px;
+}
