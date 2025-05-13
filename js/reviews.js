@@ -1,4 +1,5 @@
-const swiper = new Swiper('.reviews__swiper', {
+new Swiper('.reviews__swiper', {
     loop: true,
-    
+    freeMode: true,
+    slidesPerView: 'auto'
 })
