@@ -1,4 +1,4 @@
-.header{
+.header {
     backdrop-filter: blur(30px);
     background: rgba(217, 217, 217, 0.07);
     position: absolute;
@@ -6,23 +6,37 @@
     width: 100%;
 }
 
-.header__list{
+.header__list {
     display: flex;
-    gap:20px;
+    gap: 20px;
     color: aliceblue;
 }
 
-.header__inner{
+.header__link {
+    padding: 2px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    transition: color .4s, border .4s;
+}
+
+.header__link:hover {
+    color: rgb(146, 123, 96);
+}
+
+.header__link:focus {
+    border-color: rgb(212, 169, 119);
+}
+
+.header__inner {
     display: flex;
     align-items: center;
     gap: 50px;
 }
 
-.header__phone{
+.header__phone {
     color: white;
     display: inline;
     gap: 8px;
     margin-left: auto;
     display: flex
 }
-
